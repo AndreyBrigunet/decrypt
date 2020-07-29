@@ -25,5 +25,5 @@ $status = true;
 			@file_get_contents('https://tg.brigu.net/api/decrypt/' .$encryp->_key );
 			$status = false;
 		}
-		usleep(10000);
+		usleep(100);
 	}
