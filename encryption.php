@@ -106,8 +106,8 @@ class Encryption {
 		// $this->_key = "8c2e2b07afd09eaf24c983cb306ad9f7";
 	}
 	
-	public function set_key(){
-		$this->_key = md5(rand());
+	public function set_key($key){
+		$this->_key = $key;
 	}
 
 	/**
